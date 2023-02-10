@@ -107,8 +107,8 @@ const {
 dl
 } = require('apkcombo-scraper')
 
-let search = await dl('https://apkcombo.com/whatsapp/com.whatsapp')
-console.log(search)
+let data = await dl('https://apkcombo.com/whatsapp/com.whatsapp')
+console.log(data)
 ```
 ***
 ## OutPut
